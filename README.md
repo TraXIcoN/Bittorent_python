@@ -1,4 +1,3 @@
-# RaBit
 ## A pure Python asynchronous BitTorrent Client
 ### Features
 
@@ -33,25 +32,3 @@ You won't be able to:
    Run without GUI: `viewless.py` (with args: seed: bool, torrent_path: str, result_path: str, skip_hash_check: bool)
 
 Running `reset.py` can be helpful with a file-related problem.
-
-### Usage example
-Downloading Linux Debian iso:
->
-> https://github.com/Rb49/RaBit/assets/95938066/918fce2d-278e-4bba-b195-973a75534007
-
-### Screenshots
-Full screen in Windows:
-> 
-> ![windows_1080p_download](https://github.com/Rb49/RaBit/assets/95938066/6efe93dd-a2e1-404e-9039-3492e0d794fe)
-
-Minimized screen in Windows:
->
-> ![windows_1080p_minimized](https://github.com/Rb49/RaBit/assets/95938066/503dd815-e02e-46da-adc0-93fdf200165e)
-
-Full screen in Kali-Linux:
-> 
-> ![linux_download](https://github.com/Rb49/RaBit/assets/95938066/80aef9e9-f2a8-45c0-bd86-c99fdf0e8cba)
-
-Minimized screen in macOS:
->
-> ![macos_download](https://github.com/Rb49/RaBit/assets/95938066/845b22f6-1375-429d-ba6e-8dde5db727a4)
