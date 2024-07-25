@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-main file of RaBit client integrated with gui
+main file of Bittorent_python client integrated with gui
 """
 
 from src.app import Application

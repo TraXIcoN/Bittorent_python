@@ -27,7 +27,7 @@ class _Singleton:
 
 class Client(_Singleton):
     """
-    RaBit module main class
+    Bittorent_python module main class
     """
 
     def __init__(self):

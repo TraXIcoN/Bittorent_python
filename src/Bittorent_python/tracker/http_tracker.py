@@ -24,7 +24,7 @@ async def http_tracker_announce(tracker_url: str, info_hash: bytes, peer_id: byt
     events = ['none', 'completed', 'started', 'stopped']
 
     headers = {
-        'User-Agent': 'RaBit v1.0.0'
+        'User-Agent': 'Bittorent_python v1.0.0'
     }
 
     params = {

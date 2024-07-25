@@ -1,4 +1,4 @@
-from src.RaBit import Client
+from src.Bittorent_python import Client
 from .add_torrent import get_TopWindow as AddTorrent
 from .settings import get_TopWindow as Settings
 from .zoomable_canvas import get_ZoomableMapCanvas
@@ -219,7 +219,7 @@ class PeersInfoFrame(customtkinter.CTkScrollableFrame):
 
 
 class MainWindow(customtkinter.CTk):
-    ICON_PATH = abs_db_path("assets/RaBit_icon.ico")
+    ICON_PATH = abs_db_path("assets/Bittorent_python_icon.ico")
     SETTINGS_PATH = abs_db_path("assets/settings.png")
     ADD_PATH = abs_db_path("assets/add.png")
     REMOVE_PATH = abs_db_path("assets/remove.png")
@@ -233,7 +233,7 @@ class MainWindow(customtkinter.CTk):
         customtkinter.set_appearance_mode("System")
         customtkinter.set_default_color_theme("blue")
 
-        self.title("RaBit v1.0.0")
+        self.title("Bittorent_python v1.0.0")
         if "nt" == os.name:  # linux tkinter doesn't support .ico
             self.iconbitmap(MainWindow.ICON_PATH)
 

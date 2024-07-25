@@ -1,4 +1,4 @@
-from src.RaBit import Client
+from src.Bittorent_python import Client
 from .utils import *
 
 import customtkinter

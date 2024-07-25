@@ -30,7 +30,7 @@ class Frame(customtkinter.CTkFrame):
         else:
             font = "aptos black"
 
-        name = customtkinter.CTkLabel(self, text="RaBit ™", font=(font, 35))
+        name = customtkinter.CTkLabel(self, text="Bittorent_python ™", font=(font, 35))
         name.grid(row=1, padx=20, pady=0)
 
         description = customtkinter.CTkLabel(self, text="A BitTorrent Client", font=("aptos black", 20))
@@ -45,7 +45,7 @@ class Frame(customtkinter.CTkFrame):
 
 
 class LoadingWindow(customtkinter.CTk):
-    ICON_PATH = abs_db_path("assets/RaBit_icon.ico")
+    ICON_PATH = abs_db_path("assets/Bittorent_python_icon.ico")
     WIDTH = 640
     HEIGHT = 360
 
@@ -59,7 +59,7 @@ class LoadingWindow(customtkinter.CTk):
 
         self.grid_columnconfigure(0, weight=1)
 
-        self.title("RaBit v1.0.0")
+        self.title("Bittorent_python v1.0.0")
         if "nt" == os.name:  # linux tkinter doesn't support .ico
             self.iconbitmap(LoadingWindow.ICON_PATH)
         self.minsize(LoadingWindow.WIDTH, LoadingWindow.HEIGHT)

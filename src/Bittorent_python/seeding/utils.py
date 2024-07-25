@@ -91,7 +91,7 @@ async def forward_port_upnp(devices, external_port: int, internal_port: int, pro
                                         NewInternalPort=internal_port,
                                         NewInternalClient=nat_ip,
                                         NewEnabled='1',
-                                        NewPortMappingDescription=f'RaBit ({protocol})',
+                                        NewPortMappingDescription=f'Bittorent_python ({protocol})',
                                         NewLeaseDuration=lease_duration)
 
             success = True

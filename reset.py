@@ -11,7 +11,7 @@ import os
 
 if __name__ == '__main__':
     try:
-        parent_path = 'src/RaBit/app_data'
+        parent_path = 'src/Bittorent_python/app_data'
 
         # delete completed torrents db
         if os.path.exists(path := os.path.join(parent_path, 'completed_torrents.db')):

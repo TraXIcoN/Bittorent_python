@@ -14,7 +14,7 @@ def imdb_search(name: str) -> bool:
         query = f"{parsed_name['title']} {parsed_name['year'] if 'year' in parsed_name else ''}"
         url = f"https://www.imdb.com/search/title/?title={'%20'.join(query.split())}"
 
-        response = requests.get(url, headers={'User-Agent': 'RaBit v1.0.0'})
+        response = requests.get(url, headers={'User-Agent': 'Bittorent_python v1.0.0'})
         soup = BeautifulSoup(response.text, 'html.parser')
         links = filter(lambda x: x.startswith('/title/'), map(lambda link: link.get('href'), soup.find_all('a')))
         if list(links):

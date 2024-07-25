@@ -1,4 +1,4 @@
-from src.RaBit import Client
+from src.Bittorent_python import Client
 from src.view.loading_window import get_LoadingWindow
 from src.view.main_window import get_MainWindow
 from src.view.utils import *

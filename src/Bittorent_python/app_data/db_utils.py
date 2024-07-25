@@ -80,7 +80,7 @@ def get_client(peer_id: bytes) -> str:
             if match[1:3] in clients:
                 client_name = clients[match[1:3]]
             elif peer_id[1:3] == b'RB' and peer_id[8:12] == b'EPIC':  # could be my own client ;)
-                client_name = 'RaBit'
+                client_name = 'Bittorent_python'
             else:
                 client_name = 'Unknown client'
             version = [str(9 + ord(x) - 96) if 'a' <= x <= 'z' else str(9 + ord(x) - 64) if 'A' <= x <= 'Z' else x for x in match[3:7]]

@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
 """
-main file of RaBit module only, without ui
+main file of Bittorent_python module only, without ui
 """
 
-from src.RaBit.rabit import Client
+from src.Bittorent_python.Bittorent_python import Client
 
 import asyncio
 import sys
